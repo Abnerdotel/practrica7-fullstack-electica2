@@ -10,7 +10,7 @@ mongoose.connect('mongodb://mongo:27017/fullstack-app', {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello from the backend!');
+  res.send('Hello from the backend! by Abner Dotel');
 });
 
 app.listen(port, () => {
